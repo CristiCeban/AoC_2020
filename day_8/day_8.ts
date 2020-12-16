@@ -1,6 +1,6 @@
-const fs = require("fs");
+const fs = require('fs')
 
-const input = fs.readFileSync('input8.txt', "utf-8").trim().split("\n");
+const input = fs.readFileSync('input10.txt', "utf-8").trim().split("\n");
 
 
 const executeInstruction = (instruction, index, acc) => {
